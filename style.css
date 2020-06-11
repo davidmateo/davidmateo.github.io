@@ -99,3 +99,20 @@ button:active {
     border: 2px solid var(--color-principal-fuerte);  
     border-radius: 5px;
 }
+
+.botones-formularios {
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+ .titulo2 { 
+    color: var(--color-principal);
+    background-color: var(--color-cabecera);
+    text-align: center;
+    height: 60px;
+    padding:20px;
+    margin: 5px;
+}

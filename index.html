@@ -10,7 +10,6 @@
 </head>
 
 <body>
-    
     <div class="titulo">
         <h1> Calculadora de figuras geométricas </h1>
     </div>
@@ -26,7 +25,6 @@
                         <label>Lado</label>
                         <input type="number" id="lado" placeholder="Ingresa el lado">
                     </div>
-
                     <div class="botones-formulario">
                         <button onclick="borrarAreaCuadrado()">borrar</button>
                         <button onclick="calcularAreaCuadrado()">calcular</button>
@@ -65,8 +63,7 @@
                 <div class="resultadoareatriangulo">
                     <input class="input-resultado" type="number" id="resultadoareatriangulo" disabled>
                 </div>
-
-            </div>2
+            </div>
         </div>
     </section>
     <section id="Rectangulo">
@@ -96,10 +93,156 @@
                 <div class="resultadoArearectangulo">
                     <input class="input-resultado" type="number" id="resultadoArearectangulo" disabled>
                 </div>
+            </div>
+        </div>
+    </section>
+    <section id="Trapecio">
+        <h2> Sección calcular área de un trapecio</h2>
+        <div class="contenedor-seccion">
+            <div class="imagen-seccion">
+                <img src="img/trapecio.jpg" alt="Esta imagen es un Rectangulo">
+            </div>
+            <div class="formulario-seccion">
+                <div class="formulario-campos">
+                    <div class="campo-formulario">
+                        <label>Base menor</label>
+                        <input type="number" id="base_menor" placeholder="Ingresa la base menor">
+                    </div>
+                    <div class="campo-formulario">
+                        <label>Base mayor</label>
+                        <input type="number" id="base_mayor" placeholder="Ingresa la base mayor">
+                    </div>
+                    <div class="campo-formulario">
+                        <label>Altura</label>
+                        <input type="number" id=altura_trapecio placeholder="ingrese la altura">
+                    </div>
+
+                    <div class="botones-formulario">
+                        <button onclick="borrarareatrapecio()">borrar</button>
+                        <button onclick="calcularareatrapecio()">calcular</button>
+                    </div>
+                </div>
+                <div class="resultadoaretrapecio">
+                    <input class="input-resultado" type="number" id="resultadoareatrapecio" disabled>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="circulo">
+        <h2> Sección calcular área de un circulo</h2>
+        <div class="contenedor-seccion">
+            <div class="imagen-seccion">
+                <img src="img/circulo.PNG" alt="Esta imagen es un Rectangulo">
+            </div>
+            <div class="formulario-seccion">
+                <div class="formulario-campos">
+                    <div class="campo-formulario">
+                        <label>Radio</label>
+                        <input type="number" id="radio_circulo" placeholder="Ingresa el radio">
+                    </div>
+                    <div class="botones-formularios">
+                        <button onclick="borrarareacirculo()">borrar</button>
+                        <button onclick="calcularareacirculo()">calcular</button>
+                    </div>
+                    <div class="resultadoareacirculo">
+                        <input class="input-resultado" type="number" id="resultadoareacirculo" disabled>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="poligono regular">
+        <h2> Sección calcular área de un poligono regular</h2>
+        <div class="contenedor-seccion">
+            <div class="imagen-seccion">
+                <img src="img/pentagono.jpg" alt="Esta imagen es un Poligono regular">
+            </div>
+            <div class="formulario-seccion">
+                <div class="formulario-campos">
+                    <div class="campo-formulario">
+                        <label>Longitud lado</label>
+                        <input type="number" id="l_lados" placeholder="Ingresa la longitud del lado">
+                    </div>
+                    <div class="campo-formulario">
+                        <label>Numero de lados</label>
+                        <input type="number" id="n_lados" placeholder="Ingresa el n° de lados">
+                    </div>
+                    <div class="campo-formulario">
+                        <label>Apotema</label>
+                        <input type="number" id="apotema_p" placeholder="ingresa el apotema">
+                    </div>
+                    <div class="botones-formulario">
+                        <button onclick="borrarareapoligono()">borrar</button>
+                        <button onclick="calcularareapoligono()">calcular</button>
+                    </div>
+
+                </div>
+                <div class="resultadoareapoligono">
+                    <input class="input-resultado" type="number" id="resultadoareapoligono" disabled>
+                </div>
 
             </div>
         </div>
     </section>
+    <section id="Rombo">
+        <h2> Sección calcular área de un rombo</h2>
+        <div class="contenedor-seccion">
+            <div class="imagen-seccion">
+                <img src="img/rombo.jpg" alt="Esta imagen es un rombo">
+            </div>
+            <div class="formulario-seccion">
+                <div class="formulario-campos">
+                    <div class="campo-formulario">
+                        <label>Diagonal1</label>
+                        <input type="number" id="diagonal1" placeholder="Ingresa la Diagonal1">
+                    </div>
+                    <div class="campo-formulario">
+                        <label>Diagonal2</label>
+                        <input type="number" id="diagonal2" placeholder="Ingresa la Diagonal2">
+                    </div>
+
+                    <div class="botones-formulario">
+                        <button onclick="borrararearombo()">borrar</button>
+                        <button onclick="calculararearombo()">calcular</button>
+                    </div>
+
+                </div>
+                <div class="resultadoarearombo">
+                    <input class="input-resultado" type="number" id="resultadoarearombo" disabled>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <div class="titulo2">
+        <h1> Calculador de volumen de figuras </h1>
+    </div>
+    <section id="Cubo">
+        <h2> Sección calcular área de un cubo</h2>
+        <div class="contenedor-seccion">
+            <div class="imagen-seccion">
+                <img src="img/cubo.jpg" alt="Esta imagen es un cubo">
+            </div>
+            <div class="formulario-seccion">
+                <div class="formulario-campos">
+                    <div class="campo-formulario">
+                        <label>lado</label>
+                        <input type="number" id="l_cubo" placeholder="Ingresa el lado">
+                    </div>
+                    
+                    <div class="botones-formulario">
+                        <button onclick="borrarvolcubo()">borrar</button>
+                        <button onclick="calcularvolcubo()">calcular</button>
+                    </div>
+
+                </div>
+                <div class="resultadovolcubo">
+                    <input class="input-resultado" type="number" id="resultadovolcubo" disabled>
+                </div>
+
+
+
+
 </body>
 
 </html>
